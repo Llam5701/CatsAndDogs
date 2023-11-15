@@ -21,7 +21,7 @@ def predict(image):
 
     if likelihood_is_cat > 0.98:
         return "cat"
-    elif likelihood_is_cat < 0.02:
+    elif likelihood_is_cat < 0.02:   
         return "dog"
     else:
         return "Not sure... true another picture"
